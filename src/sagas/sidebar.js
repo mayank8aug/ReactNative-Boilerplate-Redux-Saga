@@ -6,7 +6,7 @@ let client;
 
 export function* fetchSidebarData() {
   try {
-    const response = yield call(async () => client.get('https://mayank8aug.github.io/ReactNative-Boilerplate-Redux-Saga/assets/json/sidebar.json'));
+    const response = yield call(async () => client.get('https://mayank8aug.github.io/ReactNative-Redux-Saga-Boilerplate/assets/json/sidebar.json'));
     yield put({
       type: types.SIDEBAR_DATA_SUCCESS,
       data: response.data
