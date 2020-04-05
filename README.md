@@ -1,1 +1,1 @@
-# ReactNative-Boilerplate-Redux-Saga
+# ReactNative-Redux-Saga-Boilerplate
