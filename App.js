@@ -2,7 +2,7 @@ import React from 'react';
 import { Provider } from 'react-redux';
 import { Root } from "native-base";
 import configureStore from './store';
-import AppNavigator from './src/components/navigators/AppNavigator';
+import AppNavigator from './src/navigators/AppNavigator';
 
 const store = configureStore();
 

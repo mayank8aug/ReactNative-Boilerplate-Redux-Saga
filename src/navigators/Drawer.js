@@ -1,9 +1,9 @@
 import React from 'react';
 import { createDrawerNavigator } from 'react-navigation-drawer';
-import Home from '../home/Home';
-import SideBar from '../sidebar/Sidebar';
-import Login from '../login/Login';
-import ContactUs from '../contact/ContactUs';
+import Home from '../components/home/Home';
+import SideBar from '../components/sidebar/Sidebar';
+import Login from '../components/login/Login';
+import ContactUs from '../components/contact/ContactUs';
 
 const Drawer = createDrawerNavigator(
     {
