@@ -4,7 +4,7 @@ import Drawer from './Drawer';
 import Home from '../components/home/Home';
 import Login from '../components/login/Login';
 import ContactUs from '../components/contact/ContactUs';
-import WebView from '../components/webview/WebView';
+import NativeWebView from '../components/webview/NativeWebView';
 
 const Navigator = createStackNavigator(
   {
@@ -12,7 +12,7 @@ const Navigator = createStackNavigator(
     Home: { screen: Home },
     Login: { screen: Login },
     ContactUs: { screen: ContactUs },
-    WebView: { screen: WebView }
+    WebView: { screen: NativeWebView }
   },
   {
     initialRouteName: 'Drawer',
