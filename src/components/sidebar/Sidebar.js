@@ -8,7 +8,7 @@ function Item({ name, route, navigation }) {
     return (
         <View style={styles.item}>
             <Text style={styles.title} onPress={() => {
-                navigation.navigate(route);
+                navigation.navigate(route, { screenName: name });
                 navigation.closeDrawer();
             }}>{name}</Text>
         </View>
